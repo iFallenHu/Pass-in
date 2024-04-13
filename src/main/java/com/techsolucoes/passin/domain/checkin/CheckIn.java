@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 public class CheckIn {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 
     @Column(name = "created_at")
